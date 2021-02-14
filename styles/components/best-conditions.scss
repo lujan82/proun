@@ -1,0 +1,54 @@
+.best-conditions {
+    padding: 16px 16px 32px;
+    background: url(/assets/images/cta-compress.jpg);
+    background: #0089CC;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    button {
+        padding: 10px 20px;
+        background: transparent;
+        border: solid 2px #FFFFFF;
+        border-radius: 100px;
+    }
+}
+
+.best-conditions--container {
+    text-align: center;
+}
+
+.best-conditions--title {
+    padding: 11px 0;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.best-conditions--text {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.43;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+@media only screen and (min-width: 950px) {
+
+    .best-conditions.mobile {
+        display: none;
+    }
+
+    .best-conditions {
+        padding: 67px 20px;
+    }
+
+    .best-conditions--title {
+        font-size: 48px;
+        font-weight: 300;
+    }
+
+    .best-conditions--text {
+        font-size: 16px;
+    }
+}

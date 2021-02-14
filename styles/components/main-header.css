@@ -1,0 +1,122 @@
+.main-header {
+  position: relative;
+  padding: 15px;
+  color: #FFFFFF;
+  background: url(/assets/images/ferran-fusalba.jpg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  box-sizing: border-box; }
+  .main-header form {
+    width: 90%;
+    margin: auto;
+    text-align: center; }
+  .main-header .container-input {
+    position: relative; }
+    .main-header .container-input img {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 13px;
+      width: 20px;
+      margin: auto; }
+  .main-header input {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding-left: 44px;
+    margin: 0 auto 13px;
+    font-size: 15px;
+    font-weight: 300;
+    color: #4A4A4A;
+    background-color: #FFFFFF;
+    border: 0;
+    border-radius: 3px;
+    box-shadow: 4px 4px 8px 0 rgba(23, 53, 111, 0.2);
+    box-sizing: border-box; }
+  .main-header button {
+    width: 100%;
+    margin: 0 auto 13px; }
+  .main-header .main-header--button--video {
+    position: relative;
+    display: none;
+    width: 150px;
+    margin: 24px auto 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #008BCF;
+    text-align: center;
+    background: white;
+    border-radius: 25px; }
+
+.main-header--title {
+  position: relative;
+  padding: 30px;
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center; }
+  .main-header--title img {
+    position: relative;
+    bottom: -25px;
+    width: 41px;
+    height: 38px; }
+
+.main-header--text {
+  width: 90%;
+  margin: auto;
+  text-align: center; }
+
+@media only screen and (min-width: 950px) {
+  .main-header {
+    height: 640px;
+    padding: 15px;
+    color: #FFFFFF;
+    text-align: center;
+    background: url(/assets/images/ferran-fusalba.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover; }
+    .main-header form {
+      position: relative;
+      width: max-content;
+      margin: auto; }
+    .main-header button {
+      position: absolute;
+      top: 16px;
+      right: 15px;
+      width: 215px;
+      height: 50px;
+      margin: unset; }
+    .main-header .main-header--button--video {
+      display: block; }
+    .main-header input {
+      width: 100%;
+      height: 80px;
+      padding-left: 55px;
+      font-size: 18px; }
+    .main-header .container-input {
+      width: 630px;
+      margin: auto; }
+      .main-header .container-input img {
+        left: 15px;
+        width: 36px;
+        height: 26px;
+        margin: auto; }
+    .main-header .main-header--text {
+      width: 500px;
+      margin-top: 20px;
+      line-height: 1.41; }
+  .main-header--title {
+    width: 450px;
+    padding: 50px 30px 65px;
+    margin: auto;
+    font-size: 70px; }
+    .main-header--title span {
+      font-weight: 900; }
+    .main-header--title img {
+      bottom: -75px;
+      left: -50px;
+      width: 74px;
+      height: 70px; } }
+
+/*# sourceMappingURL=main-header.css.map */

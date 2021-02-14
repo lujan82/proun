@@ -1,0 +1,38 @@
+.companies {
+    display: none;
+    padding: 60px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.companies--title {
+    font-size: 42px;
+    font-weight: 300;
+    color: #008BCF;
+}
+
+.companies--text {
+    width: 499px;
+    margin: 15px auto 60px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.44;
+    color: #4A4A4A;
+}
+
+.companies--images {
+    display: flex;
+    justify-content: center;
+    height: 192px;
+}
+
+.companies--image {
+    margin: 0 15px;
+}
+
+@media only screen and (min-width: 950px) {
+
+    .companies {
+        display: block;
+    }
+}

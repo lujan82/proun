@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proun | prueba maquetación</title>
+
+    <link rel="stylesheet" href="./styles/index.css">
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+</head>
+<body>
+    <header class="header">
+        <div class="header--left">
+            <div id="burger-toggle" class="toggle--menu">
+                <img src="./assets/icons/group.svg" alt="burger">
+            </div>
+
+            <div class="header--logo">
+                <img src="./assets/icons/logo-principal.svg" alt="Logo Clicasa">
+            </div>
+        </div>
+        
+        <nav class="header--menu">
+            <ul class="header--list">
+                <li class="header--item active">
+                    <a href="#">Vender</a>
+                </li>
+                <li class="header--item">
+                    <a href="#">Comprar</a>
+                </li>
+                <li class="header--item">
+                    <a href="#">#yoElijoClipPiso</a>
+                </li>
+                <li class="header--item">
+                    <a href="#">¿Por qué ClipPiso?</a>
+                    <img src="./assets/icons/down.svg" alt="icon down">
+                </li>
+            </ul>
+        </nav>
+
+
+        <div class="header--contact">
+            <div class="header--contact-item">
+                <img src="assets/icons/phone.svg" alt="Icono telefono"><span>910 123 456</span>
+            </div>
+            <div class="header--contact-item">
+                <img src="assets/icons/whatsapp.svg" alt="Icono whatsapp">
+            </div>
+            <div class="header--contact-item">
+                <img src="assets/icons/mail.svg" alt="Icono mail">
+            </div>
+        </div>
+    </header>
+
+    <section class="main-header">
+        <div class="main-header--title">Vende tu piso en un <span>clic</span>
+            <img src="./assets/images/bitmap-compress.png" alt="arrow curved down">
+        </div>
+        <form>
+            <div class="container-input">
+                <img src="./assets/icons/shape.svg" alt="home icon">
+                <input type="text" placeholder="Introduce la dirección de tu casa o piso">
+            </div>
+            <button type="submit">Vender mi inmueble</button>
+        </form>
+
+        <div class="main-header--text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </div>
+
+        <button class="main-header--button--video">Ver video</button>
+    </section>
+
+    <section class="why-us">
+
+        <div class="advantage">
+            <div class="advantage--content">
+                <div class="advantage--title">En Clicaca sólo hay ventajas</div>
+                <div class="advantage-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+            </div>
+            <ul class="advantage--list">
+                <li class="advantage--item">
+                    <img class="advantage--img" src="./assets/icons/group-3.svg" alt="">
+                    <div class="advantage--item-content">
+                        <div class="advantage--title--litle">Oferta en 24 h</div>
+                        <div class="advantage--title--text">No te preocupes de su estado, ni de reparaciones para eneseñarlo</div>
+                    </div>
+                </li>
+                <li class="advantage--item">
+                    <img class="advantage--img" src="./assets/icons/path-5603-8-2-9-8.svg" alt="">
+                    <div class="advantage--item-content">
+                        <div class="advantage--title--litle">Pago inmediato</div>
+                        <div class="advantage--title--text">No te preocupes de su estado, ni de reparaciones para eneseñarlo</div>
+                    </div>
+                </li>
+                <li class="advantage--item">
+                    <img class="advantage--img" src="./assets/icons/group-2.svg" alt="">
+                    <div class="advantage--item-content">
+                        <div class="advantage--title--litle">Ahórrate el papeleo</div>
+                        <div class="advantage--title--text">Si lo necesitas también podemos ayudarte a encontrar tu nuevo hogar</div>
+                    </div>
+                </li>
+                <li class="advantage--item">
+                    <img class="advantage--img" src="./assets/icons/group-4.svg" alt="">
+                    <div class="advantage--item-content">
+                        <div class="advantage--title--litle">Tu eliges la fecha</div>
+                        <div class="advantage--title--text">Si lo necesitas también podemos ayudarte a encontrar tu nuevo hogar</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="easy-sell">
+            <div class="easy-sell--title">Vender tu piso nunca fue tan fácil</div>
+            <div class="easy-sell--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+        </div>
+
+        <div class="steps"> 
+            <div class="tabs">
+                <input type="radio" id="tab1" name="tab-control" checked>
+                <input type="radio" id="tab2" name="tab-control">
+                <input type="radio" id="tab3" name="tab-control">  
+                <input type="radio" id="tab4" name="tab-control">
+                <ul>
+                    <li class="steps--items" title="Features">
+                        <label for="tab1" role="button">
+                            <div class="steps--number">
+                                <span>1</span>
+                            </div>
+                            <div class="steps--content">
+                                <div class="steps--title"> Descríbemos tu inmueble</div>
+                                <div class="steps--text">No te preocupes de su estado, ni de reparaciones para eneseñarlo</div>
+                            </div>
+                        </label>
+                        <img src="./assets/images/group.jpg" alt="group" >
+                     </li>
+                    <li class="steps--items">
+                        <label for="tab2" role="button">
+                            <div class="steps--number">2</div>
+                            <div class="steps--content">
+                                <div class="steps--title">Recibe una oferta en 24 horas</div>
+                                <div class="steps--text">Piénsatela!</div>
+                            </div>
+                        </label>
+                        <img src="./assets/images/group.jpg" alt="group" >
+                    </li>
+                    <li class="steps--items">
+                        <label for="tab3" role="button">
+                            <div class="steps--number">3</div>
+                            <div class="steps--content">
+                                <div class="steps--title">Dinos hasta cuando quieres quedarte</div>
+                                <div class="steps--text">Nos ajustamos a tus necesidades, cuando tu estés listo nosotros también lo estaremos</div>
+                            </div>
+                        </label>
+                        <img src="./assets/images/group.jpg" alt="group" >
+                    </li> 
+                    <li class="steps--items">
+                        <label for="tab4" role="button">
+                            <div class="steps--number">4</div>
+                            <div class="steps--content">
+                                <div class="steps--title">Ya está!</div>
+                                <div class="steps--text">Firma la venta y recibe el dinero</div>
+                            </div>
+                        </label>
+                        <img src="./assets/images/group.jpg" alt="group" >
+                    </li>
+                </ul>
+                
+                <div class="slider">
+                    <div class="indicator"></div>
+                </div>
+                <div class="content">
+                    <section>
+                        <img src="./assets/images/group.jpg" alt="group" >
+                    </section>
+                    <section>
+                        <img src="./assets/images/group.jpg" alt="group" >   
+                    </section>
+                    <section>
+                        <img src="./assets/images/group.jpg" alt="group" >
+                    </section>
+                    <section>
+                        <img src="./assets/images/group.jpg" alt="group" >
+                    </section>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="best-conditions">
+        <div class="best-conditions--container">
+            <div class="best-conditions--title">Las mejores condiciones del mercado inmobiliario</div>
+            <div class="best-conditions--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+            <button>Descubre nuestras tarifas</button>
+        </div>
+    </section>
+
+    <section class="clients">
+        <div class="clients--container">
+            <div class="clients--content">
+                <div class="clients--title"></div>
+                <div class="clients--text"></div>
+            </div>
+            <div class="clients--images">
+                <div class="clients--image"></div>
+                <div class="clients--image"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Slider main container -->
+    <div class="swiper-container">
+
+        <div class="swiper--main">
+            <div class="swiper--main-title">Nuestra mejor referencia, nuestros clientes</div>
+            <div class="swiper--main-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+        </div>
+
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+               <img src="./assets/images/rectangle.jpg" alt="rectangle">
+               <div class="swiper--content">
+                   <div class="swiper--title">Fue realmente fácil, en una semana vendí mi piso</div>
+                    <div class="swiper--person">Sonia M. </div>
+               </div>
+                
+            </div>
+            <div class="swiper-slide">
+               <img src="./assets/images/rectangle.jpg" alt="rectangle">
+                <div class="swiper--content">
+                   <div class="swiper--title">Fue realmente fácil, en una semana vendí mi piso</div>
+                    <div class="swiper--person">Sonia M. </div>
+               </div>
+            </div>
+            <div class="swiper-slide">
+               <img src="./assets/images/rectangle.jpg" alt="rectangle">
+                <div class="swiper--content">
+                   <div class="swiper--title">Fue realmente fácil, en una semana vendí mi piso</div>
+                    <div class="swiper--person">Sonia M. </div>
+               </div>
+            </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+    <section class="best-conditions mobile">
+        <div class="best-conditions--container">
+            <div class="best-conditions--title">¿Buscas casa? También tenemos las mejores ofertas</div>
+            <div class="best-conditions--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+            <button>Ver inmuebles</button>
+        </div>
+    </section>
+
+    <section class="companies">
+        <div class="companies--container">
+            <div class="companies--title">Trabajamos con las mejores empresas</div>
+            <div class="companies--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+            <div class="companies--images">
+                <div class="companies--image">
+                    <img src="./assets/images/group-4.jpg" alt="group 4">
+                </div>
+                <div class="companies--image">
+                    <img src="./assets/images/group-5.jpg" alt="group 5">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer--content">
+            <div class="footer--logo">
+                <a href="#">
+                    <img src="assets/icons/logo-principal.svg" alt="Logo Clicasa">
+                </a>
+            </div>
+
+            <div class="footer--legal">
+                <span>
+                    <a href="#">Mapa web</a>
+                </span>
+                <span>
+                    <a href="#">Contacto</a>
+                </span>
+                <span>
+                    <a href="#">Aviso legal</a>
+                </span>
+            </div>
+
+            <div class="footer--contact">
+                <div class="footer--item">
+                    <img src="assets/icons/phone.svg" alt="phone">
+                    <span>911 123 456</span>
+                </div>
+                <div class="footer--item">
+                    <img src="assets/icons/mail.svg" alt="mail">
+                    <span>info@clicasa.com</span>
+                </div>
+            </div>
+        </div>
+        <div class="footer--info">
+            <div class="footer--rights">© 2017 CLICASA. TODOS LOS DERECHOS RESERVADOS</div>
+
+            <div class="footer--rrss">
+                <a href="#">
+                    <img src="assets/icons/1489335132-facebook-circle-color.svg" alt="facebook icon">
+                </a>
+                <a href="#">
+                    <img src="assets/icons/1489335133-twitter-circle-color.svg" alt="twitter icon">
+                </a>
+                <a href="#">
+                    <img src="assets/icons/1489335130-linkedin-circle-color.svg" alt="linkedin icon">
+                </a>
+                <a href="#">
+                    <img src="assets/icons/1489335135-youtube-circle-color.svg" alt="youtube icon">
+                </a>           
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="./js/index.js" type="module"></script>
+
+</body>
+</html>

@@ -1,0 +1,1 @@
+{"version":3,"file":"variables.css","sources":["base/variables.scss"],"sourcesContent":["\r\n/* Text colors */\r\n$text-color-blue: #008BCF;\r\n$text-color-dark:#4A4A4A;\r\n$text-color-light: #9B9B9B;\r\n"],"names":[],"mappings":"AACA,iBAAiB"}
